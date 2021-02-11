@@ -4,7 +4,6 @@ import sys
 if __name__ == '__main__':
 	s = socket.socket()
 	s.bind(('0.0.0.0', int(sys.argv[1])))
-	f = open('woot.dmp','wb')
 	s.listen(5)
 
 	while True:
